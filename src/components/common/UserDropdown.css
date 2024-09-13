@@ -1,0 +1,178 @@
+.relative{
+    margin-top: 15px;
+    position: fixed;
+    z-index: 99999;
+    /* display: flex; */
+}
+/* styles.css */
+.fisstname {
+  color: rgb(255, 255, 255); /* Change this to the color you want */
+  margin-top: 20px;
+  margin: 5px; 
+  font-size: 20px;/* Adjust this value to move the element downward */
+}
+.lastname {
+  color: #33cabb; /* Change this to the color you want */
+  margin-top: 20px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 20px; /* Adjust this value to move the element downward */
+}
+.yguy{
+   
+    color: rgb(0, 0, 0); /* Text color */
+    padding: 15px 125px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+}
+.yguy:hover {
+    background-color: #33cabb; /* Change background color to red on hover */
+  }
+.relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .right-0 {
+    right: 0;
+  }
+  
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
+  
+  .z-10 {
+    z-index: 10;
+  }
+  
+  .bg-white {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .divide-y {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+  }
+  
+  .divide-gray-100 {
+    --divide-opacity: 1;
+    border-color: #060606;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow {
+    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-shadow);
+  }
+  
+  .w-44 {
+    width: 11rem;
+  }
+  
+  .dark\:bg-gray-700 {
+    --tw-bg-opacity: 1;
+    background-color: #374151;
+  }
+  
+  .dark\:divide-gray-600 {
+    --tw-divide-opacity: 1;
+    border-color: #4b5563;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .text-gray-900 {
+    --tw-text-opacity: 1;
+    color: rgba(17, 24, 39, var(--tw-text-opacity));
+  }
+  
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+  }
+  
+  .font-medium {
+    font-weight: 500;
+    color: #33cabb;
+  }
+  
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #007830;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .hover\:bg-gray-100:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+  }
+  
+  .dark\:hover\:bg-gray-600:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(75, 85, 99, var(--tw-bg-opacity));
+  }
+  
+  .dark\:hover\:text-white:hover {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+  }
+  
+  .text-gray-700 {
+    --tw-text-opacity: 1;
+    color: rgba(55, 65, 81, var(--tw-text-opacity));
+  }
+  
+  .dark\:text-gray-200 {
+    --tw-text-opacity: 1;
+    color: rgba(229, 231, 235, var(--tw-text-opacity));
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .hover\:bg-gray-100:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+  }
+  
+  .dark\:hover\:bg-gray-600:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(75, 85, 99, var(--tw-bg-opacity));
+  }
+  
+  .dark\:text-gray-200 {
+    --tw-text-opacity: 1;
+    color: rgba(229, 231, 235, var(--tw-text-opacity));
+  }
+  
+  .dark\:hover\:text-white:hover {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+  }
+  

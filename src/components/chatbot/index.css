@@ -1,0 +1,183 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes slideInDown {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+ 
+  .chat-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 620px;
+    width: 470px;
+    border: 1px solid #ccc;
+    margin-top: 55px;
+  margin-left: -370px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-header {
+    background-color: #4a4945;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+  }
+ 
+  .chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .message-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
+  
+  .message-sender {
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .message-text {
+    background-color: #e9ecef;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .chat-input {
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  /* styles.css */
+
+  
+.recommendations-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  .recommendations-container {
+    position: fixed;
+    top: 45px;
+    right: 100px; /* Adjust as needed */
+    background-color: white;
+    padding: 0px;
+    border: 1px solid #ccc;
+  }
+  
+  .recommendations-item {
+    background-color: #f0f0f0;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .recommendations-item:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+  }
+  /* chatbotbutton */
+  .chatbox-container {
+    position: relative;
+    min-height: 00vh; /* Set minimum height to fill the viewport */
+    margin-left: 1400px;
+    margin-top: -3750px;
+  }
+  
+  .chatbox-footer {
+    
+    position: fixed;
+     bottom: 0;
+     margin-left: 460px;
+   
+  }
+  
+
+  .learning-option-button {
+    padding: 0.5rem;
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid green;
+    margin: 3px;
+  }
+
+
+  .chatbox-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 500px;
+  }
+
+  .chattt-container {
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    width: 470px;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    margin-left: 45px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chatbot-options {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding: 10px;
+    /* border-bottom: 1px solid #ccc; */
+  }
+  
+  .chatbot-options button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .chatbot-options button:hover {
+    background-color: #1979e0;
+  }
+  
+  .chatbot-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+
+
+
+
+  

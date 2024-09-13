@@ -1,0 +1,126 @@
+.custom-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .product-section-1 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .product-section-2 {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
+  }
+  
+  .product-section-2.scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #e0e0e0;
+  }
+  
+  .product-section-2.scrollbar::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .product-section-2.scrollbar::-webkit-scrollbar-track {
+    background: #e0e0e0;
+  }
+  
+  .product-section-2.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+  
+  .products-container {
+    display: flex;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .rating-value {
+    font-size: 16px;
+    color: #f39c12;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-image {
+    margin-right: 20px;
+  }
+  
+  .product-details {
+    flex-grow: 1;
+  }
+  
+  .product-type {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .product-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .sale-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  .offers {
+    display: flex;
+    align-items: center;
+  }
+  
+  .actual-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: #999;
+  }
+  
+  .discount {
+    font-size: 14px;
+    color: #27ae60;
+  }
+  
+  .view-more {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .view-more img {
+    transition: transform 0.3s;
+  }
+  
+  .view-more:hover img {
+    transform: translateY(-5px);
+  }
+  

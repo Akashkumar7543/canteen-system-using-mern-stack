@@ -1,0 +1,119 @@
+.payment-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0.1, 0.1, 0.1, 0.1);
+    border-radius: 10px;
+   max-width: 120%;
+   cursor: pointer;
+
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  .payment-method {
+    font-weight: bold;
+  }
+  
+  .payment-method.credit {
+    color: green;
+  }
+  
+  .payment-method.debit {
+    color: red;
+  }
+  .payment-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .payment-info {
+    margin-bottom: 10px;
+  }
+  
+  .payment-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .payment-date,
+  .payment-time {
+    font-size: 0.875rem;
+  }
+  
+  .payment-amount {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for credit and debit amounts */
+  .payment-amount.credit {
+    color: green;
+  }
+  
+  .payment-amount.debit {
+    color: red;
+  }
+  
+  .payment-method {
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+  
+  .payment-method.credit {
+    color: green;
+  }
+  
+  .payment-method.debit {
+    color: red;
+  }
+  
+  .payment-status {
+    font-size: 0.875rem;
+  }
+  
+  .payment-status.completed {
+    color: green;
+  }
+  
+  .payment-status.pending {
+    color: orange;
+  }
+  
+  .payment-status.canceled {
+    color: red;
+  }
+    
+  .payment-item:hover {
+    /* Styles for payment-item on hover */
+    background-color:  #f0f0f0; /* Change this to the color you want */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+  }
+  
+  .payment-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-name {
+    font-weight: bold;
+  }
+  
+  .payment-amount.credit {
+    color: green;
+  }
+  
+  .payment-amount.debit {
+    color: red;
+  }
+  
+ 
+  
+ 
+  

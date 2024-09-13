@@ -1,0 +1,252 @@
+.quick-transfer-container {
+    display: flex;
+    gap: 10px;
+  }
+  .user.selected {
+    border: 2px solid #6b46c1; /* Example highlight color */
+  }
+  .walletbaln{
+    margin-left: 385px;
+    /* margin-bottom: -100px;
+     */
+     font-weight: 600;
+     font-family: poppins, sans-serif;
+     margin-top: -70px;
+     font-size: 32px;
+  }
+  .quick-transfer-card{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    /* margin-right: -20px; */
+    height: 100%;
+    max-height: 600px;
+    
+  }
+  
+  .quick-transfer-header, .transactions-header {
+    margin-bottom: 20px;
+  }
+  
+  .quick-transfer-users-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .transactions-card{
+    max-width: 52%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 110%;
+    /* max-width: 600px; */
+  }
+  
+  .quick-transfer-users {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    margin-bottom: 20px;
+    max-width: 150%;
+  }
+  
+  .user {
+    text-align: center;
+  }
+  
+  .user img {
+    width: 110px;
+    height: 120px;
+    border-radius: 20%;
+    margin-left: 0px;
+  }
+  
+  .username {
+    color: gray;
+  }
+  
+
+  
+  
+ 
+  
+  .quick-transfer-footer {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .transactions-filter {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .transactions-list {
+    margin-top: 20px;
+  }
+  
+  .transaction {
+
+        /* border-top: 1px solid #e0e0e0; /* Light gray color */
+        /* margin: 20px 0; Adjust the margin as needed */ 
+    
+      
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .transaction-status {
+    /* width: 100px; */
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .transaction-status.completed {
+   color: #2BC155;
+  }
+  
+  .transaction-status.pending {
+    color: #FE8024;
+  }
+  
+  .transaction-status.canceled {
+    color: red;
+  }
+  
+  .transaction-details {
+    flex-grow: 1;
+    padding: 0 5px;
+  }
+  .scroll-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    /* padding: 0 10px; */
+  }
+  .transaction-date-time{
+    margin-right: 70px;
+ }
+ .payment-amount{
+    margin-right: 70px;
+ }
+  .quick-transfer-users::-webkit-scrollbar {
+    height: 8px; /* Adjust the height for horizontal scrollbar */
+  }
+  
+  .quick-transfer-users::-webkit-scrollbar-thumb {
+    background-color: #dddbdb; /* Color of the scrollbar thumb */
+    border-radius: 10px;
+  }
+  
+  .quick-transfer-users::-webkit-scrollbar-thumb:hover {
+    background-color: #aba6a6; /* Color of the scrollbar thumb when hovered */
+  }
+  
+  .quick-transfer-users.show-scrollbar {
+    overflow-x: auto;
+  }
+
+  .button-group {
+    display: flex;
+    background-color: #f4f5f7;
+    border-radius: 20px;
+    padding: px;
+    max-width: 300px;
+    margin-left: 370px;
+    margin-top: -67px;
+  }
+  
+  .button {
+    flex: 1;
+    padding: 12px 15px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #7d7d7d;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .button.active {
+    background-color: #1EAAE7;
+    color: white;
+  }
+  /* QuickTransfer.css */
+
+/* General styles for the notification container */
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  display: none; /* Hidden by default */
+}
+
+/* Styles for loading spinner */
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+/* Keyframes for spinner animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Styles for success message */
+.success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #2BC155;
+}
+
+.success-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #2BC155;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Animation for tick icon */
+@keyframes tick {
+  0% { transform: scale(0); opacity: 0; }
+  50% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Success tick icon */
+.success-icon::before {
+  content: '✔';
+  animation: tick 0.5s ease-out;
+}
+.user-list-container {
+  max-height: none; /* Remove any height restriction */
+  overflow: auto;   /* Allow scrolling if needed */
+}

@@ -1,0 +1,96 @@
+.content{
+    position: relative;
+    left: 290px;
+}
+.containerr{
+    background-color: #f0f0f0;
+    height: 100%;
+    width: 100%;
+
+}
+.cont{
+    background-color: white;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+
+  }
+  
+  .section .edit {
+    color: rgb(68, 197, 180);
+    cursor: pointer;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+    margin-right: 400px;
+
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+  }
+  .small-input {
+    width: 200px; /* Adjust width as needed */
+    padding: 5px; /* Adjust padding as needed */
+    font-size: 17px; /* Adjust font size as needed */
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .gender-group {
+    margin-top: 10px;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+
+  }
+  
+  .gender-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .gender-group div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+
+  }
+  

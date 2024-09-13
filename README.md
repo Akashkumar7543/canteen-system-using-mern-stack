@@ -1,2 +1,2 @@
-# canteen-system
- canteen mangement system
+# React Router Project Starter
+# canteen-mangement-system-mern
